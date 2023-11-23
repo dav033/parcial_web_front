@@ -1,0 +1,37 @@
+.createUser {
+  width: 700px;
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .inputGroup {
+      width: 100%;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+
+      div {
+        margin-right: 10px;
+      }
+
+      .buttonContainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        button {
+          width: 250px;
+          height: 56px;
+          margin: 0 !important;
+        }
+      }
+    }
+
+    .formInput {
+      margin-bottom: 10px;
+    }
+  }
+}
